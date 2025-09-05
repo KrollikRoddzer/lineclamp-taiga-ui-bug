@@ -23,9 +23,7 @@
           }
         ],
         "styles": [
-          "./src/styles.less",
-          "@taiga-ui/core/styles/taiga-ui-theme.less",
-          "@taiga-ui/core/styles/taiga-ui-fonts.less"
+          "./src/styles.less"
         ]
       },
       "configurations": {
