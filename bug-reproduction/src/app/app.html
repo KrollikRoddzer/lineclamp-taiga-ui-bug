@@ -19,6 +19,7 @@
                             *tuiHead="'name'"
                             tuiTh
                             [sticky]="true"
+                            [resizable]="true"
                             [style.inline-size]="'400px'"
                             [style.top.px]="-(viewport.getOffsetToRenderedContentStart() || 0)"
                         >
@@ -28,6 +29,7 @@
                             *tuiHead="'dob'"
                             tuiTh
                             [sticky]="true"
+                            [resizable]="true"
                             [style.top.px]="-(viewport.getOffsetToRenderedContentStart() || 0)"
                         >
                             Date of Birth
@@ -36,6 +38,7 @@
                             *tuiHead="'age'"
                             tuiTh
                             [sorter]="ageSorter"
+                            [resizable]="true"
                             [sticky]="true"
                             [style.top.px]="-(viewport.getOffsetToRenderedContentStart() || 0)"
                         >
